@@ -2,6 +2,7 @@
 
 import Header from "@/components/header";
 import Navber from "@/components/navber";
+import Footer from "@/components/footer";
 import React from "react";
 
 const page = () => {
@@ -9,6 +10,7 @@ const page = () => {
     <main>
       <Navber />
       <Header />
+      <Footer />
     </main>
   );
 };
