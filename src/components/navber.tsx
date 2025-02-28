@@ -14,10 +14,10 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="hidden md:flex items-center gap-6">
+      <div className="flex items-center md:gap-6 gap-3">
         <Link
           href="/sign-in"
-           className="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-2 py-1 text-md"
+           className="bg-blue-500 hover:bg-blue-600 text-white rounded-full  px-1 md:px-2 py-1 md:text-md text-sm"
         >
           <Button className="bg-transparent hover:bg-transparent">
             {" "}
@@ -26,7 +26,7 @@ const Navbar = () => {
         </Link>
         <Link
           href="/sign-up"
-          className="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-2 py-1 text-md"
+          className="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-1 md:px-2 py-1 md:text-md text-sm"
         >
           <Button className="bg-transparent hover:bg-transparent">
             {" "}

@@ -15,7 +15,7 @@ export default function Header() {
             </div>
 
             <div className="space-y-3">
-              <h1 className="text-4xl md:text-6xl font-bold">
+              <h1 className="text-5xl md:text-6xl font-bold">
                 <span className="text-blue-500">Solacify</span>
                 <br />
                 <span className="text-gray-900 text-4xl">
