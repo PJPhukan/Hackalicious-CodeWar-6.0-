@@ -10,21 +10,21 @@ export default function Header() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <div className="inline-flex items-center px-4 py-1.5 bg-white rounded-full border border-gray-200 shadow-sm">
-              <span className="text-gray-700">Health Matters</span>
+              <span className="text-gray-700">Mental Health Matters</span>
               <span className="ml-2 text-red-500">❤️</span>
             </div>
 
-            <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                <span className="text-blue-500">One Step Solution</span>
+            <div className="space-y-3">
+              <h1 className="text-4xl md:text-6xl font-bold">
+                <span className="text-blue-500">Solacify</span>
                 <br />
-                <span className="text-gray-900">
-                  for all your healthy needs.
+                <span className="text-gray-900 text-4xl">
+                  Your AI-powered companion for mental wellness
                 </span>
               </h1>
 
               <p className="text-gray-600 max-w-md">
-                For smart companion for the lows and highs. A emphatetic friend
+                An emphatetic friend
                 who understands your emotions.
               </p>
             </div>
@@ -40,16 +40,7 @@ export default function Header() {
           </div>
 
           <div className="hidden md:block relative">
-            {/* <div className="relative h-[400px] w-[400px]">
-              <Image
-                src="/doctor.jpg"
-                alt="Doctor with laptop"
-                width={500}
-                height={500}
-                className="object-contain"
-                priority
-              />
-            </div> */}
+            
             <div className="relative h-[500px] w-[800px] overflow-hidden rounded-2xl">
               <Image
                 src="/doctor.png"
