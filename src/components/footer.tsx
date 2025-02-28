@@ -3,12 +3,10 @@ import { Facebook, Instagram, Twitter, Youtube, Mail, PinIcon } from "lucide-rea
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-slate-50 py-6">
+    <footer className="w-full bg-slate-50 py-6 px-2 md:px-10">
       <div className="container mx-auto px-4 flex flex-col items-center text-center">
         <div className="flex items-center gap-1 text-blue-600 font-medium text-xl mb-4">
           Solacify
-          <span className="text-red-500">
-          </span>
         </div>
 
         {/* Main Navigation */}

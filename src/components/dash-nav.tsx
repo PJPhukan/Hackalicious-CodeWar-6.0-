@@ -4,7 +4,7 @@ import React from "react";
 
 const DashboardNavbar = () => {
   return (
-    <div className="bg-white shadow-md py-5 px-6 flex items-center justify-between">
+    <div className="bg-white shadow-md py-5  flex items-center justify-between px-2 md:px-10">
       <div className="flex items-center gap-2">
         <div className="h-8 w-8 bg-blue-500 rounded flex items-center justify-center text-white font-bold text-lg">
           S

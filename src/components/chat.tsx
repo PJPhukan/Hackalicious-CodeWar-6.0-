@@ -16,6 +16,7 @@ import { cn } from "@/lib/utils";
 
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import { fromSchema } from "@/app/dashboard/constants";
+import ShowEmpty from "./empty";
 
 const Chat = () => {
   const router = useRouter();
@@ -69,7 +70,7 @@ const Chat = () => {
 
   return (
     <div className="w-full max-w-2xl mx-auto p-4 h-full  rounded-lg  bg-transparent">
-      <div className="h-[75vh] overflow-y-auto p-2 border-b mt-8">
+      <div className="h-[75vh] overflow-y-auto p-2  mt-8">
         {messages.map((msg, index) => (
           <div
             key={index}
@@ -82,9 +83,10 @@ const Chat = () => {
             {typeof msg.content === "string" ? msg.content : "Invalid response"}
           </div>
         ))}
+        {messages.length <=0 && <ShowEmpty/>}
         <div ref={chatRef} /> {/* Ensure this ref is typed correctly */}
       </div>
-      <div className="flex items-center mt-2">
+      <div className="flex items-center mt-2 shadow-2xl rounded-2xl">
      
         <Form {...form}>
           <form
